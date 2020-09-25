@@ -15,6 +15,7 @@
 		1789DF62251C8477003C0D6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1789DF60251C8477003C0D6B /* LaunchScreen.storyboard */; };
 		1789DF6D251C8477003C0D6B /* L4StodoUserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DF6C251C8477003C0D6B /* L4StodoUserTests.swift */; };
 		1789DF78251C8477003C0D6B /* L4StodoUserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DF77251C8477003C0D6B /* L4StodoUserUITests.swift */; };
+		1789DF87251C8FF4003C0D6B /* TabuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DF86251C8FF4003C0D6B /* TabuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1789DF73251C8477003C0D6B /* L4StodoUserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = L4StodoUserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1789DF77251C8477003C0D6B /* L4StodoUserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L4StodoUserUITests.swift; sourceTree = "<group>"; };
 		1789DF79251C8477003C0D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1789DF86251C8FF4003C0D6B /* TabuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				1789DF55251C8475003C0D6B /* AppDelegate.swift */,
 				1789DF57251C8475003C0D6B /* SceneDelegate.swift */,
 				1789DF59251C8475003C0D6B /* ViewController.swift */,
+				1789DF86251C8FF4003C0D6B /* TabuViewController.swift */,
 				1789DF5B251C8475003C0D6B /* Main.storyboard */,
 				1789DF5E251C8477003C0D6B /* Assets.xcassets */,
 				1789DF60251C8477003C0D6B /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				1789DF5A251C8475003C0D6B /* ViewController.swift in Sources */,
 				1789DF56251C8475003C0D6B /* AppDelegate.swift in Sources */,
+				1789DF87251C8FF4003C0D6B /* TabuViewController.swift in Sources */,
 				1789DF58251C8475003C0D6B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
