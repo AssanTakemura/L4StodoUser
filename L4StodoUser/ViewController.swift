@@ -44,5 +44,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
     }
     
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        self.todo.remove(at: indexPath.row)
+        tableView.deleteRows(at: [indexPath], with: .automatic)
+        UserDefaults.standard.set(todo, forKey: "todo")
+    }
+    
 }
 
