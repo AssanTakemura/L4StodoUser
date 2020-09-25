@@ -23,6 +23,7 @@ class TabuViewController: UIViewController {
     }
     
     @IBAction func save(){
+        todo = UserDefaults.standard.array(forKey: "todo") as? [String] ?? []
         if let text = TodoTextField.text{
             todo.append(text)
         }

@@ -29,8 +29,8 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="C1L-Ye-DR8" id="w5R-3l-6dD"/>
-                                    <outlet property="delegate" destination="C1L-Ye-DR8" id="hE0-qg-jyk"/>
+                                    <outlet property="dataSource" destination="C1L-Ye-DR8" id="0eg-1l-MAn"/>
+                                    <outlet property="delegate" destination="C1L-Ye-DR8" id="902-ZU-3kM"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -51,6 +51,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="tableView" destination="RKf-Br-qc3" id="PFY-3a-SvA"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="TO_ADDVC" id="BXM-xA-bPb"/>
                     </connections>
                 </viewController>
